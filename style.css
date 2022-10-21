@@ -1,0 +1,19 @@
+#banner {
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	background-color: #FFF6E3;
+}
+
+#container {
+	margin: 10%;
+}
+
+#navigatie {
+	margin: 3% 0%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
