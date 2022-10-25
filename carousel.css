@@ -8,10 +8,17 @@ body {
   background-color: #FFF6E3;
 }
 
+.navbar {
+  /*--bs-navbar-padding-y: 0.1rem !important;*/
+  --bs-navbar-toggler-border-color: #FFF6E3 !important;
+      --bs-navbar-padding-y: 0 !important;
+}
+
 
 .bg-light {
-  /*opacity: 80%;*/
+  /*opacity: 95%;*/
   background-color: #FFF6E3 !important;
+  margin-bottom: 0.1rem;
 }
 
 #banner {
