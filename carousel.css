@@ -35,7 +35,7 @@ img {
 
 .navbar {
   /*--bs-navbar-padding-y: 0.1rem !important;*/
-  --bs-navbar-toggler-border-color: #FFF6E3 !important;
+  /*--bs-navbar-toggler-border-color: /*#FFF6E3*/ !important;*/
       --bs-navbar-padding-y:  !important;
       height: 38px !important;
       position:absolute !important
@@ -50,7 +50,7 @@ img {
 }
 
 .nav-link {
-  color: #FFF6E3 !important;
+  color: #FFFFFF !important;
 
 }
 
