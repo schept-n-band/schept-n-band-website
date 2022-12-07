@@ -195,3 +195,15 @@ img {
     width: 100%;
   }
 }
+
+
+.navbar-collapse {
+  display: none;
+}
+
+#doneer-knop {
+  color: #D76B28;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
