@@ -37,7 +37,7 @@ img {
   /*--bs-navbar-padding-y: 0.1rem !important;*/
   /*--bs-navbar-toggler-border-color: /*#FFF6E3*/ !important;*/
       --bs-navbar-padding-y:  !important;
-      height: 38px !important;
+      height: 62px !important;
       position:absolute !important
       margin-top: 1rem !important
     }
@@ -202,8 +202,9 @@ img {
 }
 
 #doneer-knop {
-  color: #D76B28;
+  color: /*#D76B28*/white;
   position: absolute;
   top: 5px;
   right: 10px;
+  font: bold;
 }
