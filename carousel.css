@@ -73,6 +73,27 @@ img {
     background-size: contain;
   }
 
+  .offcanvas-header{ display:block; }
+  
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  }
+
+   .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%)
+  }
+
   .feature-special {
     display: none;
   }
@@ -87,8 +108,28 @@ img {
     background: url(pictures/banner-1200px.jpeg) no-repeat;
     background-size: contain;
   }
+  .offcanvas-header{ display:block; }
 
-  .feature-special {
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  }
+
+   .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%)
+  }
+
+.feature-special {
     display: none;
   }
 }
@@ -202,9 +243,9 @@ img {
 }
 
 #doneer-knop {
-  color: /*#D76B28*/white;
+  color: /*#D76B28*/#001F3D;
   position: absolute;
   top: 5px;
   right: 10px;
-  font: bold;
+  font-weight: bold;
 }
